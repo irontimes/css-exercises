@@ -1,0 +1,20 @@
+.basic {
+    background-color: #e68484;
+    font-family: Verdana,"DejaVu Sans", sans-serif;
+}
+
+.intermediate {
+    font-size: 24px;
+}
+
+#first-id {
+    color: #1c088f;
+    font-size: 36px;
+
+}
+
+#second-id {
+    background-color: #49df51;
+    font-size: 24px;
+    font-weight: bold;
+}
