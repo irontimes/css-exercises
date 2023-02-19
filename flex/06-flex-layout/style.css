@@ -1,10 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
+ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  
+   
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  background-color: lightgray;
+  margin-top: auto;
+  
+
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none; /* remove the bullet points from the list */
+  margin: 0; /* remove any default margin on the list */
+  padding: 0; /* remove any default padding on the list */
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+
+  
 }
 
 img {
